@@ -6,4 +6,4 @@ def element_at(my_list, idx):
         case(my_list, >len(my_list)):
             print("None")
         case(my_list, idx):
-            print("Element at index {:d} is {}".format(idx, element_at(my_list, idx)))
+            print("Element at index {:d} is {}".format(my_list[idx]))
